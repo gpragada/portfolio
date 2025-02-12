@@ -12,7 +12,7 @@ const NavPart = () => {
       <div className={window.innerWidth > 767 ? "px-5" : "px-2"}>
         <Navbar collapseOnSelect expand="lg" className=" p-0">
           <Navbar.Brand href="/" className="logo p-0">
-            Aman
+            Giri 
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -42,7 +42,7 @@ const NavPart = () => {
             >
               <div className="d-flex justify-content-between w-100">
                 <Nav.Link rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/amananku26/"
+                  href="https://www.linkedin.com/in/giriPragada0881/"
                   className="nav-item cursor-pointer"
                   aria-label="Linkedin"
                   target="_blank"
@@ -50,58 +50,17 @@ const NavPart = () => {
                  <LinkedInIcon/>
                 </Nav.Link>
                 <Nav.Link rel="noopener noreferrer"
-                  href="https://github.com/amananku26"
+                  href="https://github.com/gpragada"
                   className="nav-item cursor-pointer"
                   target="_blank"
                   aria-label="github"
                 >
                   <GitHubIcon />
                 </Nav.Link>
-                <Nav.Link rel="noopener noreferrer"
-                  href="https://medium.com/@amananku"
-                  className="nav-item cursor-pointer"
-                  target="_blank"
-                  aria-label="medium"
-                >
-                  <img
-                    height="25px"
-                    src="images/med.png"
-                    alt="icon"
-                  />
-                </Nav.Link>
-                <Nav.Link rel="noopener noreferrer"
-                  href="https://www.youtube.com/c/AmanAnku"
-                  className="nav-item cursor-pointer"
-                  target="_blank"
-                  aria-label="youtube"
-                >
-                  <YouTubeIcon/>
-                </Nav.Link>
-                <Nav.Link rel="noopener noreferrer"
-                  href="https://stackoverflow.com/users/14988771/aman-anku"
-                  className="nav-item cursor-pointer"
-                  target="_blank"
-                  aria-label="stackoverflow"
-                >
-                  <img
-                    height="25px"
-                    src="images/so.png"
-                    alt="icon"
-                  />
-                </Nav.Link>
-                <Nav.Link
-                  rel="noopener noreferrer"
-                  href="https://opensea.io/coder26"
-                  className="nav-item cursor-pointer"
-                  target="_blank"
-                  aria-label="stackoverflow"
-                >
-                  <img
-                    height="25px"
-                    src="https://styles.redditmedia.com/t5_4147ke/styles/communityIcon_lwl9gso33qk61.png"
-                    alt="icon"
-                  />
-                </Nav.Link>
+                
+                
+                
+               
               </div>
             </Nav>
           </Navbar.Collapse>

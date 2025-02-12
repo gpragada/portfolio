@@ -3,83 +3,61 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { scrollReveal } from "../../animation";
 import { useScroll } from "./useScroll";
-import Img from "react-cool-img";
+// Import icons from react-icons
+import { FaDatabase, FaCloud, FaServer, FaCode, FaHammer, FaBrain, FaCommentAlt, FaRobot } from "react-icons/fa";
+import { SiPostgresql, SiMongodb } from "react-icons/si";
 
 const skills = [
   {
-    logo: "/images/skills/html.png",
-    name: "Html",
-    link: "https://www.w3schools.com/html/",
+    icon: <FaDatabase size={50} color="#0078d4" />,
+    name: "SQL Server",
+    link: "https://www.microsoft.com/en-us/sql-server",
   },
   {
-    logo: "/images/skills/css-3.png",
-    name: "Css",
-    link: "https://www.w3schools.com/css/",
+    icon: <FaCloud size={50} color="#0078d4" />,
+    name: "Azure Cloud",
+    link: "https://azure.microsoft.com/",
   },
   {
-    logo: "/images/skills/js.png",
-    name: "Javascript",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    icon: <FaServer size={50} color="#0078d4" />,
+    name: "Azure Database",
+    link: "https://azure.microsoft.com/products/azure-sql",
   },
   {
-    logo: "/images/skills/git-logo.png",
-    name: "Git",
-    link: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+    icon: <FaHammer size={50} color="#0078d4" />,
+    name: "Power BI",
+    link: "https://powerbi.microsoft.com/",
   },
   {
-    logo: "/images/skills/bootstrap.png",
-    name: "Bootstrap",
-    link: "https://react-bootstrap.github.io/getting-started/introduction/",
+    icon: <FaCode size={50} color="#0078d4" />,
+    name: "T-SQL",
+    link: "https://learn.microsoft.com/en-us/sql/t-sql",
+  },
+  // Additional Skills
+  {
+    icon: <FaBrain size={50} color="#0078d4" />,
+    name: "Machine Learning",
+    link: "https://en.wikipedia.org/wiki/Machine_learning",
   },
   {
-    logo: "/images/skills/logo.png",
-    name: "Material UI",
-    link: "https://material-ui.com/",
+    icon: <FaCommentAlt size={50} color="#0078d4" />,
+    name: "LLM",
+    link: "https://openai.com/",
   },
   {
-    logo: "/images/skills/react.png",
-    name: "ReactJS",
-    link: "https://reactjs.org/",
+    icon: <FaRobot size={50} color="#0078d4" />,
+    name: "Deep Learning",
+    link: "https://en.wikipedia.org/wiki/Deep_learning",
   },
   {
-    logo: "/images/skills/nextjs.png",
-    name: "NextJS",
-    link: "https://nextjs.org/",
+    icon: <SiPostgresql size={50} color="#0078d4" />,
+    name: "Postgres DB",
+    link: "https://www.postgresql.org/",
   },
   {
-    logo: "/images/skills/redux.png",
-    name: "Redux/Redux-thunk/Redux-Saga",
-    link: "https://redux.js.org/",
-  },
-  {
-    logo: "/images/skills/sass.png",
-    name: "Sass",
-    link: "https://sass-lang.com/",
-  },
-  {
-    logo: "/images/skills/node.jpeg",
-    name: "NodeJS",
-    link: "https://nodejs.org/en/docs/",
-  },
-  {
-    logo: "/images/skills/ex.jpg",
-    name: "ExpressJS",
-    link: "https://expressjs.com/",
-  },
-  {
-    logo: "/images/skills/db.png",
+    icon: <SiMongodb size={50} color="#0078d4" />,
     name: "MongoDB",
-    link: "https://docs.mongodb.com/",
-  },
-  {
-    logo: "/images/skills/sentry.png",
-    name: "Sentry.io",
-    link: "https://docs.sentry.io/",
-  },
-  {
-    logo: "/images/skills/i18.png",
-    name: "i18next",
-    link: "https://www.i18next.com/",
+    link: "https://www.mongodb.com/",
   },
 ];
 
@@ -99,24 +77,16 @@ const Skills = () => {
           </h1>
         </div>
         <Row>
-          {skills.map((skill, index) => {
-            return (
-              <Col key={index + 1}>
-                <div className="skills">
-                  <Img
-                    placeholder="/images/skills/lod.jpeg"
-                    src={skill.logo}
-                    error="/images/skills/error.png"
-                    alt="React Cool Img"
-                  />
-                  <a rel="noopener noreferrer" href={skill.link} target="_blank">
-                    {" "}
-                    <h6>{skill.name}</h6>{" "}
-                  </a>
-                </div>
-              </Col>
-            );
-          })}
+          {skills.map((skill, index) => (
+            <Col key={index + 1}>
+              <div className="skills">
+                {skill.icon}
+                <a rel="noopener noreferrer" href={skill.link} target="_blank">
+                  <h6>{skill.name}</h6>
+                </a>
+              </div>
+            </Col>
+          ))}
         </Row>
       </motion.div>
     </div>

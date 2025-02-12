@@ -30,14 +30,14 @@ const Home = ({countData}) => {
                 <TransformText  /> 
                 </motion.h5>
                 <motion.h1 variants={titleAnim} className="mb-4">
-                  Hi, I'm <span className="chonburi-font green-text">Aman</span>
-                  Anku
+                  Hi, I'm <span className="chonburi-font green-text">Giri</span> Sai Kumar
+                  Pragada
                 </motion.h1>
                 <motion.h2 variants={titleAnim} className="mb-4">
-                  <span className="chonburi-font green-text">Software Engineer At</span>{" "}
-                  Pintar Edutech Pvt Lmt
+                  <span className="chonburi-font green-text">SQL & Azure SQL Database Administrator at</span>{" "}
+                  TCS
                 </motion.h2>
-                <a href='https://linktr.ee/amananku26' rel="noreferrer" target="_blank"  class="clipped clipped-ltr" className={`${styles.clipped} ${styles.lipped}` }> 👉 Check Link Tree </a>
+                <a href='https://linktr.ee/amananku26' rel="noreferrer" target="_blank"  class="clipped clipped-ltr" className={`${styles.clipped} ${styles.lipped}` }> </a>
               </motion.div>
             </Col>
           </Row>

@@ -1,4 +1,3 @@
-// import { Button } from "@material-ui/core";
 import { motion } from "framer-motion";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
@@ -26,7 +25,13 @@ const myProjects = [
 ];
 
 const SocialProfiles = () => {
+  // Call hooks unconditionally
   const [element, controls] = useScroll();
+  
+  // Use a flag to control rendering (do not render on front end)
+  const shouldRender = false;
+  if (!shouldRender) return null;
+
   return (
     <div className="projects1" id="projects">
       <motion.div
@@ -42,17 +47,17 @@ const SocialProfiles = () => {
         </div>
         <div className="projects-cards">
           <Row className="justify-content-center">
-            {myProjects.map((project,index) => {
+            {myProjects.map((project, index) => {
               return (
-                <Col md={4} className="mb-5" key={index+1}>
+                <Col md={4} className="mb-5" key={index + 1}>
                   <div className="project-card1">
                     <div className="img-section">
-                    <Img
-                      placeholder="/images/Loading.mp4"
-                      src={project.image}
-                       error="/images/download.png"
-                       alt="React Cool Img"
-                       className='fixImageDynamic'
+                      <Img
+                        placeholder="/images/Loading.mp4"
+                        src={project.image}
+                        error="/images/download.png"
+                        alt="React Cool Img"
+                        className="fixImageDynamic"
                       />
                       <div className="imageCardEffect"></div>
                     </div>
@@ -61,15 +66,18 @@ const SocialProfiles = () => {
                         {project.title}
                       </h5>
                       <p className="color-white">{project.dLink}</p>
-                     {project.demoLink && <div className="d-flex justify-content-between mr-4">
-                        <a rel="noopener noreferrer"
-                          href={project.demoLink}
-                          className="project-card-btn"
-                          target="_blank"
-                        >
-                          Read ...
-                        </a>
-                      </div>}
+                      {project.demoLink && (
+                        <div className="d-flex justify-content-between mr-4">
+                          <a
+                            rel="noopener noreferrer"
+                            href={project.demoLink}
+                            className="project-card-btn"
+                            target="_blank"
+                          >
+                            Read ...
+                          </a>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </Col>

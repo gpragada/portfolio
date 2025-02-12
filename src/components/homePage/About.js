@@ -26,26 +26,16 @@ const About = () => {
         className="container"
       >
         <Row className="">
-          <Col className="p-0 text-center" md={5}>
-            <img
-              placeholder="/images/skills/lod.jpeg"
-              src="/images/222.gif"
-              error="/images/skills/error.png"
-              alt="React Cool Img"
-              onClick={methodDoesNotExist}
-              height="50%"
-            />
-          </Col>
           <Col className="" md={7}>
             <div className="about-info">
               <h1 className="pb-4">
                 <span className="chonburi-font green-text ">Abo</span>ut Me
               </h1>
               <p className="details">
-                Software Developer at Nextory Private Limited. I have
-                experience in the frontend development.My major strengths are in giving realistic promises, being responsive and responsible, concentrating on business needs and communications. Interested
-                in devising a better problem‑solving method for challenging
-                tasks.
+                Database Administrator with 2.5 years of experience in SQL Server and Azure cloud services. 
+                Skilled in database management, performance tuning, and cloud infrastructure. 
+                Currently pursuing Master's in Information Systems at Binghamton University. 
+                Passionate about data management and cloud technologies.
               </p>
               <div className="d-flex align-items-center resume-section ">
                 <h6>Resume :</h6>
@@ -82,30 +72,32 @@ const About = () => {
                 <div className="about-sub-data">
                   {tab === "experience" ? (
                     <div className="work-experiences">
-                      <h5>Pintar Edutech Private Limited</h5>
+                      <h5>Tata Consultancy Services</h5>
                       <ul>
-                        <li>
-                          Working As a Frontend Developer (Tech - NextJs,ReactJS,Redux)
-                        </li> 
-                      </ul>
-                      <h5>Nextory Private Limited</h5>
-                      <ul>
-                        <li>
-                          Working As a Frontend Developer (Tech - ReactJS,Redux)
-                        </li> 
+                        <li>Database Administrator (2.5 years)</li>
+                        <li>Managed SQL Server databases and Azure cloud infrastructure</li>
+                        <li>Performed database maintenance, backup/recovery, and performance tuning</li>
+                        <li>Implemented security measures and access controls</li>
+                        {/* Additional work experience points */}
+                        <li>Installed, configured, managed, upgraded, migrated, monitored, and troubleshooted SQL Server versions from 2008 up to 2019 in both standalone and clustered environments on physical and virtual servers.</li>
+                        <li>Implemented high availability solutions including Clustering, Log Shipping, Mirroring, Replication, and Always-On; hosted SQL databases on Microsoft Azure.</li>
+                        <li>Executed Side-by-Side and In-Place upgrades of MS SQL Server from legacy versions to 2012 and 2014; experienced with SQL Azure IAAS, PAAS, and Managed Instances.</li>
+                        <li>Expert in performance tuning via Index Defragmentation, optimizing execution plans, index rebuilding, reorganization, and partitioning; utilized tools such as SQL Profiler, Index Tuning Wizard, Spotlight, and Windows Performance Monitor.</li>
+                        <li>Designed and implemented robust Backup and Recovery strategies; provided production support for large and complex databases (VLDB).</li>
+                        <li>Configured and managed Linked Servers for data transfer between SQL Server and heterogeneous databases and supported ETL-based applications.</li>
+                        <li>Created database objects (Tables, Views, Indexes, Stored Procedures, Cursors, Triggers, and SQL joins) with proficient T-SQL query writing.</li>
+                        <li>Installed, configured, and administered Windows Server (2003/2008/2012), Active Directory, and VMware environments.</li>
                       </ul>
                     </div>
                   ) : null}
                   {tab === "education" ? (
                     <div className="education">
                       <div>
-                        <h5>B.tech</h5>
+                        <h5>Master's in Information Systems</h5>
                         <ul>
-                          <li className="text-justify">
-                            Graduated in Computer Science & engineering from
-                            Bengal College of Engineering and Technology in
-                            2019.
-                          </li>
+                          <li>Binghamton University</li>
+                          <li>Expected Graduation: May 2025</li>
+                          <li>CGPA: 3.82</li>
                         </ul>
                       </div>
                     </div>
