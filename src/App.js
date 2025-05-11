@@ -1,3 +1,6 @@
+import FeederFeedback from "feeder-react-feedback";
+import "feeder-react-feedback/dist/feeder-react-feedback.css";
+import React from "react";
 import "./App.css";
 import {Component} from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
