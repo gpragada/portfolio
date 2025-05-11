@@ -1,0 +1,13 @@
+.formalPhoto {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px; /* Slight rounding for a formal, professional look */
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.formalPhoto:hover {
+  transform: scale(1.03);
+}

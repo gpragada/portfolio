@@ -1,0 +1,39 @@
+.experienceTitle {
+  /* Reduced font size for a formal look */
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 1.75rem; /* reduced from 2rem */
+  color: #1e1e1e;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.experienceDetails {
+  /* Reduced font size for formal styling */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.25rem; /* reduced from 1.5rem */
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.educationTitle {
+  /* Reduced font size for formal styling */
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 1.75rem; /* reduced from 2rem */
+  color: #1e1e1e;
+  border-left: 4px solid #0078d4;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.detailList {
+  /* Reduced font size for a formal appearance */
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1rem; /* reduced from 1.3rem */
+  color: #fff;
+  line-height: 1.5;
+  margin-left: 1rem;
+}

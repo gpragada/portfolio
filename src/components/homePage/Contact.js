@@ -30,7 +30,7 @@ const Contact = () => {
             </h5>
             <h5 className="mb-4">
               <span className="chonburi-font green-text">Email:</span>{" "}
-              girisaikumarpragada@gmail.com
+              girisaipragada@gmail.com
             </h5>
           </Col>
         </Row>

@@ -1,0 +1,23 @@
+.futuristicTitle {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  background: linear-gradient(45deg, #2196f3, #f44336);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.futuristicDetails {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.futuristicList {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+  line-height: 1.6;
+  margin-left: 1rem;
+}

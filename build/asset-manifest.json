@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.47c00fd5.css",
-    "main.js": "/static/js/main.f1be4672.js",
-    "static/js/377.f10ef604.chunk.js": "/static/js/377.f10ef604.chunk.js",
-    "static/media/map.png": "/static/media/map.e62b9605b607bb15eaf7.png",
-    "static/media/wlc-bg1.jpg": "/static/media/wlc-bg1.e54507f80f228f3d42f7.jpg",
-    "static/media/about-shape.svg": "/static/media/about-shape.1935a6be2d18c9d179fcf6402919eb59.svg",
-    "static/media/about-bg.png": "/static/media/about-bg.5ec9ac4a509a8d072fcb.png",
-    "static/media/footer-bg.png": "/static/media/footer-bg.aca525cd0e59b58efc65.png",
-    "static/media/project-bg.jpg": "/static/media/project-bg.76b50fbcd74fc49c9f51.jpg",
-    "index.html": "/index.html",
-    "main.47c00fd5.css.map": "/static/css/main.47c00fd5.css.map",
-    "main.f1be4672.js.map": "/static/js/main.f1be4672.js.map",
-    "377.f10ef604.chunk.js.map": "/static/js/377.f10ef604.chunk.js.map"
+    "main.css": "/gpragada/static/css/main.25cb25a4.css",
+    "main.js": "/gpragada/static/js/main.15647164.js",
+    "static/js/377.f10ef604.chunk.js": "/gpragada/static/js/377.f10ef604.chunk.js",
+    "static/media/Giri.jpg": "/gpragada/static/media/Giri.7b58fe95af24003e2f03.jpg",
+    "static/media/map.png": "/gpragada/static/media/map.e62b9605b607bb15eaf7.png",
+    "static/media/wlc-bg1.jpg": "/gpragada/static/media/wlc-bg1.e54507f80f228f3d42f7.jpg",
+    "static/media/about-shape.svg": "/gpragada/static/media/about-shape.1935a6be2d18c9d179fcf6402919eb59.svg",
+    "static/media/about-bg.png": "/gpragada/static/media/about-bg.5ec9ac4a509a8d072fcb.png",
+    "static/media/footer-bg.png": "/gpragada/static/media/footer-bg.aca525cd0e59b58efc65.png",
+    "static/media/project-bg.jpg": "/gpragada/static/media/project-bg.76b50fbcd74fc49c9f51.jpg",
+    "index.html": "/gpragada/index.html",
+    "main.25cb25a4.css.map": "/gpragada/static/css/main.25cb25a4.css.map",
+    "main.15647164.js.map": "/gpragada/static/js/main.15647164.js.map",
+    "377.f10ef604.chunk.js.map": "/gpragada/static/js/377.f10ef604.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47c00fd5.css",
-    "static/js/main.f1be4672.js"
+    "static/css/main.25cb25a4.css",
+    "static/js/main.15647164.js"
   ]
 }
