@@ -54,15 +54,6 @@ const myProjects = [
     source: "https://github.com/gpragada",
     demoLink: "https://covidsaharsa.netlify.app/",
   },
-  {
-    icon: <FaRobot size={72} color="#222" />,
-    image: process.env.PUBLIC_URL + "/chatbot.png",
-    title: "AI-Powered Business Insights Chatbot",
-    description:
-      "Interactive GenAI chatbot enabling business query analytics.\nExecutes real-time SQL on sales ops data.\nVisualizes results with charts and dashboards.\nIntegrates OpenAI GPT with PostgreSQL/MySQL.",
-    source: "https://github.com/gpragada/ai-chatbot",
-    demoLink: "https://your-chatbot-demo-link.com",
-  },
 ];
 
 const Projects = () => {

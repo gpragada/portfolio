@@ -4,8 +4,8 @@ import { Col, Row } from "react-bootstrap";
 import { scrollReveal } from "../../animation";
 import { useScroll } from "./useScroll";
 // Import icons from react-icons
-import { FaDatabase, FaCloud, FaServer, FaCode, FaHammer, FaBrain, FaRobot, FaMagic, FaCommentAlt, FaPython, FaHtml5, FaCss3Alt, FaJsSquare, FaBolt, FaLanguage, FaChartLine, FaGitAlt, FaAws, FaTasks, FaChartPie } from "react-icons/fa";
-import { SiPostgresql, SiMongodb, SiOpenai, SiTensorflow, SiNumpy, SiPandas, SiScikitlearn, SiScipy, SiPytorch, SiMysql, SiTableau, SiMicrosoftoffice } from "react-icons/si";
+import { FaDatabase, FaCloud, FaServer, FaCode, FaHammer, FaBrain, FaCommentAlt, FaRobot } from "react-icons/fa";
+import { SiPostgresql, SiMongodb } from "react-icons/si";
 
 const skills = [
   {
@@ -33,6 +33,7 @@ const skills = [
     name: "T-SQL",
     link: "https://learn.microsoft.com/en-us/sql/t-sql",
   },
+  // Additional Skills
   {
     icon: <FaBrain size={50} color="#0078d4" />,
     name: "Machine Learning",
@@ -57,116 +58,6 @@ const skills = [
     icon: <SiMongodb size={50} color="#0078d4" />,
     name: "MongoDB",
     link: "https://www.mongodb.com/",
-  },
-  {
-    icon: <SiOpenai size={50} color="#0078d4" />,
-    name: "Generative AI",
-    link: "https://openai.com/",
-  },
-  {
-    icon: <FaMagic size={50} color="#0078d4" />,
-    name: "DALL-E",
-    link: "https://openai.com/dall-e/",
-  },
-  {
-    icon: <FaPython size={50} color="#0078d4" />,
-    name: "Python",
-    link: "https://www.python.org/",
-  },
-  {
-    icon: <FaBolt size={50} color="#0078d4" />,
-    name: "PySpark",
-    link: "https://spark.apache.org/docs/latest/api/python/index.html",
-  },
-  {
-    icon: <FaHtml5 size={50} color="#0078d4" />,
-    name: "HTML",
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    icon: <FaCss3Alt size={50} color="#0078d4" />,
-    name: "CSS",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    icon: <FaJsSquare size={50} color="#0078d4" />,
-    name: "JavaScript",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    icon: <SiTensorflow size={50} color="#0078d4" />,
-    name: "TensorFlow",
-    link: "https://www.tensorflow.org/",
-  },
-  {
-    icon: <SiNumpy size={50} color="#0078d4" />,
-    name: "NumPy",
-    link: "https://numpy.org/",
-  },
-  {
-    icon: <SiPandas size={50} color="#0078d4" />,
-    name: "Pandas",
-    link: "https://pandas.pydata.org/",
-  },
-  {
-    icon: <SiScikitlearn size={50} color="#0078d4" />,
-    name: "Scikit-learn",
-    link: "https://scikit-learn.org/",
-  },
-  {
-    icon: <SiScipy size={50} color="#0078d4" />,
-    name: "SciPy",
-    link: "https://scipy.org/",
-  },
-  {
-    icon: <FaChartPie size={50} color="#0078d4" />,
-    name: "matplotlib",
-    link: "https://matplotlib.org/",
-  },
-  {
-    icon: <SiPytorch size={50} color="#0078d4" />,
-    name: "PyTorch",
-    link: "https://pytorch.org/",
-  },
-  {
-    icon: <SiMysql size={50} color="#0078d4" />,
-    name: "MySQL",
-    link: "https://www.mysql.com/",
-  },
-  {
-    icon: <SiTableau size={50} color="#0078d4" />,
-    name: "Tableau",
-    link: "https://www.tableau.com/",
-  },
-  {
-    icon: <FaLanguage size={50} color="#0078d4" />,
-    name: "NLP",
-    link: "https://en.wikipedia.org/wiki/Natural_language_processing",
-  },
-  {
-    icon: <FaChartLine size={50} color="#0078d4" />,
-    name: "Predictive Modeling",
-    link: "https://en.wikipedia.org/wiki/Predictive_analytics",
-  },
-  {
-    icon: <FaGitAlt size={50} color="#0078d4" />,
-    name: "Git",
-    link: "https://git-scm.com/",
-  },
-  {
-    icon: <SiMicrosoftoffice size={50} color="#0078d4" />,
-    name: "MS Office",
-    link: "https://www.microsoft.com/en-us/microsoft-365",
-  },
-  {
-    icon: <FaAws size={50} color="#0078d4" />,
-    name: "AWS Cloud",
-    link: "https://aws.amazon.com/",
-  },
-  {
-    icon: <FaTasks size={50} color="#0078d4" />,
-    name: "Agile",
-    link: "https://www.agilealliance.org/agile101",
   },
 ];
 
