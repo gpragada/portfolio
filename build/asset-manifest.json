@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/gpragada/static/css/main.25cb25a4.css",
-    "main.js": "/gpragada/static/js/main.15647164.js",
-    "static/js/377.f10ef604.chunk.js": "/gpragada/static/js/377.f10ef604.chunk.js",
-    "static/media/Giri.jpg": "/gpragada/static/media/Giri.7b58fe95af24003e2f03.jpg",
+    "main.css": "/gpragada/static/css/main.0289f041.css",
+    "main.js": "/gpragada/static/js/main.aa7c6ffc.js",
+    "static/js/422.e4144942.chunk.js": "/gpragada/static/js/422.e4144942.chunk.js",
     "static/media/map.png": "/gpragada/static/media/map.e62b9605b607bb15eaf7.png",
     "static/media/wlc-bg1.jpg": "/gpragada/static/media/wlc-bg1.e54507f80f228f3d42f7.jpg",
     "static/media/about-shape.svg": "/gpragada/static/media/about-shape.1935a6be2d18c9d179fcf6402919eb59.svg",
@@ -11,12 +10,12 @@
     "static/media/footer-bg.png": "/gpragada/static/media/footer-bg.aca525cd0e59b58efc65.png",
     "static/media/project-bg.jpg": "/gpragada/static/media/project-bg.76b50fbcd74fc49c9f51.jpg",
     "index.html": "/gpragada/index.html",
-    "main.25cb25a4.css.map": "/gpragada/static/css/main.25cb25a4.css.map",
-    "main.15647164.js.map": "/gpragada/static/js/main.15647164.js.map",
-    "377.f10ef604.chunk.js.map": "/gpragada/static/js/377.f10ef604.chunk.js.map"
+    "main.0289f041.css.map": "/gpragada/static/css/main.0289f041.css.map",
+    "main.aa7c6ffc.js.map": "/gpragada/static/js/main.aa7c6ffc.js.map",
+    "422.e4144942.chunk.js.map": "/gpragada/static/js/422.e4144942.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25cb25a4.css",
-    "static/js/main.15647164.js"
+    "static/css/main.0289f041.css",
+    "static/js/main.aa7c6ffc.js"
   ]
 }
