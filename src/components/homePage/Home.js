@@ -8,9 +8,6 @@ import styles from "./styles.module.css";
 import formalPhotoStyles from "./formalPhoto.module.css";
 import ChatBot from "./ChatBot";
 
-// Import your image
-import myImage from "/Users/giripragada/Desktop/Porrtfolio/giri-portfolio/src/images/Giri.jpg";
-
 const TransformText = () => {
     return "</ Changing the world one commit at a Time >";
 };
@@ -55,7 +52,7 @@ const Home = ({ countData }) => {
             </Col>
             <Col md={4} xs={12} className="d-flex justify-content-center">
               <img
-                src={myImage}
+                src={process.env.PUBLIC_URL + '/images/Giri.jpg'}
                 alt="Giri"
                 className={formalPhotoStyles.formalPhoto} // applied formal effect
                 style={{ maxWidth: "100%", height: "auto", display: "block", margin: "0 auto" }}
