@@ -7,52 +7,60 @@ import { FaFilm, FaKeyboard, FaHeartbeat, FaYoutube, FaCar, FaRobot } from "reac
 
 const myProjects = [
   {
-    icon: <FaFilm size={72} color="#e50914" />,
-    title: "Netflix Subscriptiion forecasting",
+    icon: <FaRobot size={72} color="#8e44ad" />,
+    title: "Deep Learning Experiments on Fashion",
     description:
-      "Tried to replicate WhatsApp UI, and some features also. - Can Create Groups - Can Switch B/w the groups - send messages to any groups. Used Firebase for the databases",
+      "Optimized ANN/CNN models on Fashion MNIST with hyperparameter tuning; reached up to 92.6% accuracy.",
+    source: "https://github.com/gpragada",
+    demoLink: "#",
+  },
+  {
+    icon: <FaYoutube size={72} color="#ff6347" />,
+    title: "COVID-19 Case Study & Survey Analysis",
+    description:
+      "Developed a deep NN to forecast COVID-19 trends with reliable RMSE scores based on historical data.",
+    source: "https://github.com/gpragada",
+    demoLink: "#",
+  },
+  {
+    icon: <FaFilm size={72} color="#e50914" />,
+    title: "Netflix Subscription Forecasting",
+    description:
+      "Forecasted Netflix subscriptions using ARIMA/SARIMA after thorough EDA of regional trends.",
     source: "https://github.com/gpragada",
     demoLink: "https://whatsapp-clone-53d8c.web.app/rooms/QIPEvsdzwLBr8AcT1WVD",
+  },
+  {
+    icon: <FaCar size={72} color="#000" />,
+    title: "Tesla Stock Price Prediction",
+    description:
+      "Used Prophet to forecast Tesla’s stock prices for 30 days using historical data preprocessing.",
+    source: "https://github.com/gpragada",
+    demoLink: "https://shopping-cart-a0d9a.web.app/",
+  },
+  {
+    icon: <FaHeartbeat size={72} color="#ff0000" />,
+    title: "Pneumonia Detection via CNNs",
+    description:
+      "Built a CNN-based classifier for chest X-rays with data augmentation, achieving over 92% accuracy.",
+    source: "https://github.com/gpragada",
+    demoLink: "https://linkedin-clone-a7ba5.web.app/",
   },
   {
     icon: <FaKeyboard size={72} color="#000" />,
     title: "Next Word Prediction Model",
     description:
-      "The aim of this project is to make a pixel-perfect clone of Facebook. I used the BEM naming Convention. Used Firebase for the databases",
+      "A model for predicting the next word in a sequence; built as a pixel-perfect UI clone with Firebase.",
     source: "https://github.com/gpragada",
     demoLink: "https://facebook-clone-ccd54.web.app/",
   },
   {
-    icon: <FaHeartbeat size={72} color="#ff0000" />,
-    title: "pneumonia detection using CNN",
+    icon: <FaRobot size={72} color="#00aced" />,
+    title: "AI-Powered Insights Chatbot",
     description:
-      "This page is designed using HTML, CSS and Reactjs, redux, reduxthunk, json mocker. User can upload post, like and comment on other posts.",
+      "Chatbot that converts NL queries to SQL, displays real-time dashboards, and automates ETL workflows.",
     source: "https://github.com/gpragada",
-    demoLink: "https://linkedin-clone-a7ba5.web.app/",
-  },
-  {
-    icon: <FaYoutube size={72} color="#FF0000" />,
-    title: "Youtube API Data Analysis",
-    description:
-      "User can sign up with Google API and input their own data. After login, they can create an invoice. Bonus—Can generate a bill in PDF form.",
-    source: "https://github.com/gpragada",
-    demoLink: "/",
-  },
-  {
-    icon: <FaCar size={72} color="#000" />,
-    title: "Tesla Stock Analysis",
-    description:
-      "Concept used ContextApi, Axios, Styled-Components, React-Router-Dom. User can filter through Products e.g. sort price, filter by category",
-    source: "https://github.com/gpragada",
-    demoLink: "https://shopping-cart-a0d9a.web.app/",
-  },
-  {
-    icon: <FaRobot size={72} color="#222" />,
-    title: "LLAMA Models & OLAMA Models",
-    description:
-      "User can get details of vaccine slot availability on one click",
-    source: "https://github.com/gpragada",
-    demoLink: "https://covidsaharsa.netlify.app/",
+    demoLink: "https://northerntrust-chatbot-demo.netlify.app/",
   },
 ];
 
