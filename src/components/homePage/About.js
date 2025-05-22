@@ -39,8 +39,9 @@ const About = () => {
                 <h6>Resume :</h6>
                 <a
                   rel="noopener noreferrer"
-                  href="/Giri_(Resume)_.pdf"
+                  href={process.env.PUBLIC_URL + "/Giri_(Resume)_.pdf"}
                   target="_blank"
+                  download
                 >
                   View
                 </a>
